@@ -27,7 +27,7 @@ if (con.config.satuan_suhu == "celcius")
     else {
         Console.WriteLine(con.config.pesan_diterima);
     }
-} else if(con.config.satuan_suhu == "fanreinheit")
+} else if(con.config.satuan_suhu == "fanrenheit")
 {
     if (suhu > 99.5)
     {
